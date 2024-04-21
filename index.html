@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Git init</title>
+</head>
+<body>
+
+    <div class="center-body">
+        <form id="articleForm">
+            <div class="form-group">
+                <label for="title">Titre</label>
+                <input type="text" name="title" id="title">
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea rows="5" type="text" name="description" id="description"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-save">Enregistrer</button>
+        </form>
+    </div>
+
+    <div class="center-body ff card-wrapper">
+        <h1>Article list</h1>
+        <div id="articleList">
+            <p>Empty list</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
